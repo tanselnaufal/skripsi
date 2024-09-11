@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 # Set the page title and icon
 st.set_page_config(page_title="Cucian Mobil Thanzels", page_icon="🚗")
 
-st.title("Cucia Mobil Thanzel's")
+st.title("Cucian Mobil Thanzel's")
 st.markdown("\n")
 
 opt = option_menu(
@@ -18,7 +18,9 @@ opt = option_menu(
 st.markdown("\n")
 
 if opt == "Introduction":
-    st.write('''Website ini bertujuan untuk melihat tingkat kepuasan para pelanggan terhadap cucian Thanzel's. Data yang digunakan didapat dari hasil survey selama 30 hari,
+    st.write('''Cucian Mobil Thanzel's di bangun pada tahun 2012, dan mulai beroperasi pada tahun 2013 sampai sekarang. Untuk jam operasionalnya, cucian mobil Thanzel's buka dari jam 7.30 hingga jam 18.00, serta buka 
+    setiap hari, kecuali hari jumat dan hari hari besar. Cucian Mobil Thanzel's berlokasi di Jl Kubang raya km 1,5 Kelurahan Tuah karya Kecamatan Tampan Pekanbaru. History singkat cucian mobil Thanzel's
+    awalnya hanya memiliki 2 mesin hidrolik, dengan meningkatnya pelanggan bertambah pula 5 hidrolik untuk kepuasan pelanggan serta kecepatan pengerjaannya. Dibuatnya Website ini bertujuan untuk melihat tingkat kepuasan para pelanggan terhadap cucian Thanzel's. Data yang digunakan didapat dari hasil survey selama 30 hari,
              yang terbagi menjadi beberapa jenis tingkat kepuasan ''')
     st.write('''Dengan X1 adalah "Fasilitas yang disediakan", X2 adalah "Pelayanan yang di sediakan", X3 adalah "Harga" , X4 adalah "Kecepatan pengerjaan". ''')
     
